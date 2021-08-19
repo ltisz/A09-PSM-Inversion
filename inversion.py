@@ -7,11 +7,10 @@ from statistics import mean
 import matplotlib.dates as mdates
 import matplotlib.ticker as ticker
 
-dataDate="20210723"
+dataDate="20210319"
 dataDay=dataDate[-4:]
-#filename = "C:/data/SPRING-2021-DATA/3521/A0911010007_ZERO_DAT{}.dat".format(dataDate)
-filename = "A0911010007_ZERO_DAT{}.dat".format(dataDate)
-calibFilename = "C:/data/SPRING-2021-DATA/3521/PSM/PSM-CALIB-JUN2017.txt"
+filename = "PSM-Example-{}.dat".format(dataDate)
+calibFilename = "Calibration.txt"
 
 calibPlot = False
 plotting = True
