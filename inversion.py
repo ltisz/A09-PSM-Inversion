@@ -1,3 +1,14 @@
+## -*- coding:utf-8 -*-
+## INVERSION.PY -- Takes raw data from Airmodus A09 PSM .dat files and runs
+##                 simple stepwise inversion on it based on Lehtipalo et al, 2014.
+##                 Plots size distributions and contour plots as well as saves
+##                 raw size data to comma-delimited .txt formats
+##
+## Cateogries:
+##      Aerosol nucleation
+## Author:
+##      Lee Tiszenkel, UAH
+
 import numpy as np
 import datetime as dt
 import matplotlib.pyplot as plt
